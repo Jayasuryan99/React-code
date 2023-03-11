@@ -1,0 +1,15 @@
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard {
+    width: 33%;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      width: 100%;
+    }
+  }
+  

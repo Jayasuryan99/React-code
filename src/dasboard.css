@@ -1,0 +1,16 @@
+.table{
+    width: 100vw;
+    height: 100vh;
+}
+
+.insidetable{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+
+.insidetable table{
+    height: 50vh;
+    width: 85vw;
+    text-align: center;
+}
