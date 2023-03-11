@@ -19,8 +19,8 @@ function SubBar() {
 				</div>
 			</div>
 			<div>
-				{/* <Dashboard/> */}
-				<Gclogin/>
+				<Dashboard/>
+				{/* <Gclogin/> */}
 			</div>
 		</div>
 	)
