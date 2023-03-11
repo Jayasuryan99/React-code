@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import Group1 from './assests/Group1.webp';
 import Group from './assests/Group.webp';
@@ -29,7 +27,7 @@ function Navbar() {
 					</div>
 
 					<div className='nav-links'>
-						<a><img src={Group2}
+						<a href='s'><img src={Group2}
 								alt='React-images'/>
 						</a>
 						<p>CIQ&Scripting</p>
@@ -45,7 +43,7 @@ function Navbar() {
 					</div>
 
 					<div className='nav-links'>
-						<a><img src={Group6}
+						<a href='d'><img src={Group6}
 								alt='React-images'/></a>
 						<p>
 							Integration
@@ -53,7 +51,7 @@ function Navbar() {
 					</div>
 
 					<div className='nav-links'>
-						<a><img src={Group7}
+						<a href='m'><img src={Group7}
 								alt='React-images'/>
 						</a>
 						<p>

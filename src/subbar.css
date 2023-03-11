@@ -2,16 +2,21 @@
     position: absolute;
     top: 0;
     left: 10%;
-    width: 100vw;
     display: flex;
-    gap: 2%;
-    font-size: 17px;
-    border-bottom: 2px solid rgb(235, 227, 227);
+    width: 80vw;
+    border-bottom: 2px solid gray;
+    height: 4vh;
 }
 
 .bars{
-    height: 102%;
+    width: 8vw;
 }
+
+
 .bars:hover{
-border-bottom: 3px solid rgb(212, 84, 212);
+    border-bottom: 3px solid rgb(173, 65, 173);
+}
+
+.bars Link{
+border-bottom: none;
 }

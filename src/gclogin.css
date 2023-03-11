@@ -1,7 +1,6 @@
 .whole-login{
     position: absolute;
-    top: 10%;
-    left: 12%;
+    top: 50px;
     width: 80vw;
 }
 
@@ -18,7 +17,7 @@
 }
 
 .boxes label{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .boxes select{
@@ -26,11 +25,8 @@
     width: 380px;  
 }
 
-#btn{
-    float: right;
-    margin-top: -5%;
-    height: 38px;
-    width: 150px;
-    border-radius: 5px;
-}
 
+#btn button {
+margin-top: 90%;
+margin-left: 50%;
+}

@@ -109,9 +109,12 @@ export default function Gclogin() {
 
 
 			</div>
-			<button type='button' id='btn'>
+      <div id='btn'>
+      <button type='button' >
 				Submit
 			</button>
+      </div>
+			
 		</div>
 
 	)
