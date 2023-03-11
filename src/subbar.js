@@ -1,12 +1,13 @@
 import React from 'react'
 import './subbar.css'
 import Dashboard from './dashboard'
+import Gclogin from './gclogin'
 
 function SubBar() {
 
 	return (
 		<div>
-			<div className='sub'>
+			<div id='sub'>
 				<div className='bars'>
 					<p>Dashboard</p>
 				</div>
@@ -18,7 +19,8 @@ function SubBar() {
 				</div>
 			</div>
 			<div>
-				<Dashboard/>
+				{/* <Dashboard/> */}
+				<Gclogin/>
 			</div>
 		</div>
 	)

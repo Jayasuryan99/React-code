@@ -1,5 +1,6 @@
 
 import React from 'react'
+import './gclogin.css'
 
 export default function Gclogin() {
   return (
