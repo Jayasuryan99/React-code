@@ -103,7 +103,7 @@ function Charts() {
 
 
 			<div id='table'>
-                <p>GS Master</p>
+                <p>GC Master</p>
 				<table border="5">
 					<tr>
 						<th>
