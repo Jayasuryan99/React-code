@@ -1,0 +1,17 @@
+.sub{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 100vw;
+    display: flex;
+    gap: 2%;
+    font-size: 17px;
+    border-bottom: 2px solid rgb(235, 227, 227);
+}
+
+.bars{
+    height: 102%;
+}
+.bars:hover{
+border-bottom: 3px solid rgb(212, 84, 212);
+}

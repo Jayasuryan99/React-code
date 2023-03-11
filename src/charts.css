@@ -57,3 +57,62 @@ margin-left: 20px;
     height: 30px;
 }
 
+.charts-lists{
+    display: flex;
+}
+
+.charts{
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+#ima1{
+    width: 20px;
+}
+
+.chart-radio input{
+margin-left: 20px;
+}
+
+.charts-select{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 5%;
+}
+
+.dashboard{
+    margin-left: 5%;
+}
+
+
+.chart{
+    width: 900px;
+}
+
+#table table{
+    width: 90%;
+    height: 30vh;
+    margin-left: 5%;
+}
+
+#table p{
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.range{
+    display: flex;
+    gap: 5%;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.range select{
+    width: 20%;
+    height: 30px;
+}
+

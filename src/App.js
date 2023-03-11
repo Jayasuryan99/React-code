@@ -1,40 +1,28 @@
-
-/*
 import logo from './logo.svg';
 import './App.css';
+import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
+import Layout from './layout';
+import Charts from './charts';
+import SubBar from './subbar';
+import Dashboard from './dashboard';
+import Gclogin from './gclogin';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const router = createBrowserRouter(createRoutesFromElements (
+		<Route path='/'
+			element={<Layout/>}>
+			<Route index
+				element={<Charts/>}/>
+        <Route path='dashboard' element={<Charts/>}/>
+			<Route path='subbar'
+				element={<SubBar/>}/>
+		</Route>
+	))
+	return (
+
+		<RouterProvider router={router}/>
+	);
 }
 
-export default App; */
+export default App; 
 
-import Navbar from "./Navbar"
-function App()
-{
-
-return(
-<>
-<Navbar/>
-</>
-
-)
-}
-export default App
