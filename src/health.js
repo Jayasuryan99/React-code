@@ -1,5 +1,5 @@
 import React from 'react'
-import img from './assests/Group7.webp';
+import img from './assests/img.png';
 import './health.css'
 
 export default function Health() {
